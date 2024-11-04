@@ -14,3 +14,7 @@ def find_peaks(array):
         if array[i] > array[i - 1] and array[i] > array[i + 1]:
             peaks.append(array[i])
      return peaks 
+
+#calling the function and printing the result
+print(find_peaks(array))
+
